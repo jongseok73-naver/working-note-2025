@@ -1,0 +1,7 @@
+/* 이미지가 리스트의 들여쓰기에 맞춰 정렬되도록 함 */
+.markdown-preview-view ul img, 
+.markdown-preview-view ol img {
+    margin-left: 2em;  /* 들여쓰기 크기 조정 */
+    display: block;
+    max-width: 100%;  /* 이미지 크기 자동 조정 */
+}
