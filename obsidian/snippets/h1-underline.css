@@ -1,0 +1,13 @@
+/* 미리보기 모드 (Reading Mode) */
+.markdown-preview-view h1 {
+    display: block;
+    border-bottom: 1px solid white; /* 전체 줄에 밑줄 */
+    padding-bottom: 5px; /* 밑줄과 글자 사이 여백 */
+}
+
+/* 편집 모드 (Live Preview) */
+.markdown-source-view .cm-header-1 {
+    display: block;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
