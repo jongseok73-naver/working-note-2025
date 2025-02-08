@@ -1,0 +1,24 @@
+/* 미리보기 모드 (Reading Mode) */
+.markdown-preview-view img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: zoom-in;
+}
+
+/* 편집 모드 (Live Preview) */
+.markdown-source-view img, 
+.cm-s-obsidian .cm-line img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    cursor: zoom-in;
+}
+
+/* 더블클릭하면 이미지 확대 (모든 모드에서 적용) */
+.markdown-preview-view img:active,
+.markdown-source-view img:active,
+.cm-s-obsidian .cm-line img:active {
+    transform: scale(2); /* 2배 확대 */
+    cursor: zoom-out;
+}
